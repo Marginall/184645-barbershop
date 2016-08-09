@@ -26,6 +26,13 @@
       </div>
     </header>
     <main>
+      <!--
+     Здесь лучше немного переделать лэйаут.
+     Сверху контейнер с "Мы используем..." и "Цены...".
+     Снизу контейнер с "Несколько..." и "Наша мастерская...".
+     А внутри них те же left-column и right-column.
+     А то сложно будет сделать правильный вертикальный отступ для "Наша мастерская".
+-->
       <div class="container price">
         <h1 class="price-title">ПРАЙС-ЛИСТ</h1>
         <div class="breadcrumbs">
@@ -33,9 +40,9 @@
           <span class="active">прайс-лист</span>
         </div>
         <div class="price-promo">ИСТИННО МУЖСКАЯ КЛАССИКА</div>
-        <div class="left-column">
-          <div class="price-features">
-          <h2 class="price-features-title">МЫ ИСПОЛЬЗУЕМ ТОЛЬКО ЛУЧШИЕ СРЕДСТВА:</h2>
+        <div class="price-row-1">
+          <div class="price-features left-column">
+            <h2 class="price-features-title">МЫ ИСПОЛЬЗУЕМ ТОЛЬКО ЛУЧШИЕ СРЕДСТВА:</h2>
             <ul>
               <li class="features-item">Baxter of California</li>
               <li class="features-item">Mr Natty</li>
@@ -43,15 +50,7 @@
               <li class="features-item">Malin+Goetz</li>
             </ul>
           </div>
-          <div class="price-information">
-           <h2 class="information-title">НЕСКОЛЬКО СЛОВ О НАС:</h2>
-           <p class="information">Наша парикмахерская занимается исключительно мужскими стрижками.
-             Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа.
-             Мы не работаем на количество, мы делаем качество.</p>
-          </div>
-        </div>
-        <div class="right-column">
-          <div class="our-price">
+          <div class="our-price right-column">
             <h2 class="our-price-title">ЦЕНЫ НА УСЛУГИ НАШИХ МАСТЕРОВ:</h2>
             <table>
               <tr>
@@ -68,7 +67,15 @@
               </tr>
             </table>
           </div>
-          <p class="other-information">Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время,
+        </div>
+        <div class="price-row-2">
+          <div class="price-information left-column">
+           <h2 class="information-title">НЕСКОЛЬКО СЛОВ О НАС:</h2>
+           <p class="information">Наша парикмахерская занимается исключительно мужскими стрижками.
+             Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа.
+             Мы не работаем на количество, мы делаем качество.</p>
+          </div>
+          <p class="other-information right-column">Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время,
             даже в обеденный перерыв.
             Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
         </div>
