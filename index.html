@@ -12,11 +12,11 @@
       <div class="container">
         <nav class="main-navigation">
           <ul>
-            <li><a href="#">ИНФОРМАЦИЯ</a></li>
-            <li><a href="#">НОВОСТИ</a></li>
-            <li><a href="#">ПРАЙС-ЛИСТ</a></li>
-            <li><a href="#">МАГАЗИН</a></li>
-            <li><a href="#">КОНТАКТЫ</a></li>
+            <li><a href="#" class="navi-item">ИНФОРМАЦИЯ</a></li>
+            <li><a href="#" class="navi-item">НОВОСТИ</a></li>
+            <li><a href="#" class="navi-item">ПРАЙС-ЛИСТ</a></li>
+            <li><a href="#" class="navi-item">МАГАЗИН</a></li>
+            <li><a href="#" class="navi-item">КОНТАКТЫ</a></li>
           </ul>
         </nav>
         <div class="user-block">
@@ -26,23 +26,23 @@
     </header>
     <main>
       <div class="container">
-        <div><img src="http://placehold.it/385x158" width="385" height="158" alt="Барбершоп"></div>
+        <img class="main-logo" src="http://placehold.it/385x158" width="385" height="158" alt="Барбершоп">
         <div class="features">
           <div class="features-item">
-            <h2>БЫСТРО</h2>
-            <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА
+            <h2 class="features-title">БЫСТРО</h2>
+            <p class="features-content">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА
   ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ
    СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
           </div>
           <div class="features-item">
-            <h2>КРУТО</h2>
-            <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+            <h2 class="features-title">КРУТО</h2>
+            <p class="features-content">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
   МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!
   ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
           </div>
           <div class="features-item">
-            <h2>ДОРОГО</h2>
-            <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО.
+            <h2 class="features-title">ДОРОГО</h2>
+            <p class="features-content">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО.
   К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
           </div>
         </div>
@@ -51,48 +51,55 @@
             <h2 class="content-title">НОВОСТИ</h2>
             <ul>
               <li>
-                <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
-                <time datetime="11-01">11 января</time>
+                <p class="content-post">НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+                <time class="post-date" datetime="11-01">11 января</time>
               </li>
               <li>
-                <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ,
+                <p class="content-post">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ,
   БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
-                <time datetime="01-18">18 января</time>
+                <time class="post-date" datetime="01-18">18 января</time>
               </li>
             </ul>
-            <button class="content-btn" type="button">ВСЕ НОВОСТИ</button>
+            <a href="#" class="content-btn">ВСЕ НОВОСТИ</a>
           </div>
           <div class="right-column">
-            <figure><img src="http://placehold.it/286x166" width="286" height="166" alt="Барбершоп"></figure>
-            <button class="content-btn" type="button">НАЗАД</button>
-            <button class="content-btn" type="button">ВПЕРЕД</button>
+            <h2 class="content-title">ФОТОГАЛЕРЕЯ</h2>
+            <div class="gallery">
+              <figure><img class="gallery-img" src="http://placehold.it/286x166" width="286" height="166" alt="Барбершоп"></figure>
+              <button class="gallery-btn" type="button">НАЗАД</button>
+              <button class="gallery-btn" type="button">ВПЕРЕД</button>
+            </div>
           </div>
         </div>
         <div class="content">
           <div class="left-column">
-            <h2 class="content-title">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
-            <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-  АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8
-            ТЕЛЕФОН: +7 (495) 666-02-66
-            </p>
-            <p>
-              ВРЕМЯ РАБОТЫ:
-  ПН — ПТ: С 10:00 ДО 22:00
-  СБ — ВС: С 10:00 ДО 19:00
-            </p>
-            <button class="content-btn" type="button">КАК ПРОЕХАТЬ</button>
-            <button class="content-btn" type="button">ОБРАТНАЯ СВЯЗЬ</button>
+            <div class="contacts">
+              <h2 class="content-title">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+              <p class="contacts-text">БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+    АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+              ТЕЛЕФОН: +7 (495) 666-02-66
+              </p>
+              <p class="contacts-text">
+                ВРЕМЯ РАБОТЫ:<br>
+    ПН — ПТ: С 10:00 ДО 22:00<br>
+    СБ — ВС: С 10:00 ДО 19:00
+              </p>
+              <a href="#" class="contacts-btn">КАК ПРОЕХАТЬ</a>
+              <a href="#" class="contacts-btn">ОБРАТНАЯ СВЯЗЬ</a>
+            </div>
           </div>
           <div class="right-column">
-            <h2 class="content-title">ЗАПИСАТЬСЯ</h2>
-            <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
-            <form class="content-form" action="https://echo.htmlacademy.ru" method="post">
-              <input type="text" name="date" placeholder="ДАТА">
-              <input type="text" name="time" placeholder="ВРЕМЯ">
-              <input type="text" name="name" placeholder="ВАШЕ ИМЯ">
-              <input type="tel" name="phone" placeholder="ТЕЛЕФОН">
-              <button class="content-btn" type="submit">ОТПРАВИТЬ</button>
-            </form>
+            <div class="subscribe">
+              <h2 class="content-title">ЗАПИСАТЬСЯ</h2>
+              <p class="subscribe-text">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+              <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="post">
+                <input type="text" name="date" placeholder="ДАТА">
+                <input type="text" name="time" placeholder="ВРЕМЯ">
+                <input type="text" name="name" placeholder="ВАШЕ ИМЯ">
+                <input type="tel" name="phone" placeholder="ТЕЛЕФОН">
+                <button class="subscribe-btn" type="submit">ОТПРАВИТЬ</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -101,9 +108,9 @@
       <div class="container">
         <div class="footer-contacts">
           <span class="contacts-title">БАРБЕРШОП «БОРОДИНСКИЙ»</span>
-          <p>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8</p>
+          <p class="footer-text">АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8</p>
           <a href="#">КАК НАС НАЙТИ?</a>
-          <span>ТЕЛЕФОН: +7 (495) 666-02-66</span>
+          <span class="footer-tel">ТЕЛЕФОН: +7 (495) 666-02-66</span>
         </div>
         <div class="footer-social">
           <span class="social-title">ДАВАЙТЕ ДРУЖИТЬ!</span>
@@ -119,11 +126,16 @@
     </footer>
     <div class="popup-form">
       <h2 class="popup-title">ЛИЧНЫЙ КАБИНЕТ</h2>
-      <p>ВВедите пожалуйста свой логин и пароль</p>
+      <p class="popup-text">ВВедите пожалуйста свой логин и пароль</p>
       <form action="echo.htmlacademy.ru" method="post">
-        <label><input type="text" name="login" placeholder="ЛОГИН"></label>
-        <label><input type="password" name="password" placeholder="ПАРОЛЬ"></label>
-        <label><input type="checkbox" name="save"></label>
+        <input type="text" name="login" placeholder="ЛОГИН">
+        <input type="password" name="password" placeholder="ПАРОЛЬ">
+        <div class="checkbox-container">
+          <label>ЗАПОМНИТЕ МЕНЯ
+            <input class="popup-checkbox" type="checkbox" name="save">
+            <span class="checkbox-indicator"></span>
+          </label>
+        </div>
         <a href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
         <a href="#">ВОЙТИ</a>
         <button class="form-close" type="button"></button>
