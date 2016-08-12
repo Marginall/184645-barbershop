@@ -82,3 +82,50 @@ h2 {
 .features-item:last-child {
   margin-right: 0;
 }
+
+.content {
+  padding: 55px 80px;
+}
+
+.content .left-column {
+  float: left;
+  width: 380px;
+  margin-right: 100px;
+  outline: 1px solid green;
+  outline-offset: -2px;
+}
+
+.content .right-column {
+  float: right;
+  width: 300px;
+  outline: 1px solid green;
+  outline-offset: -2px;
+}
+
+.main-footer {
+  width: 100%;
+  height: 190px;
+  background-color: #212121;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 80px;
+  outline: 1px solid red;
+  outline-offset: -2px
+}
+
+.footer-social {
+  float: left;
+  width: 220px;
+  outline: 1px solid red;
+  outline-offset: -2px
+}
+
+.footer-copyright {
+  float: right;
+  width: 140px;
+  outline: 1px solid red;
+  outline-offset: -2px
+}
