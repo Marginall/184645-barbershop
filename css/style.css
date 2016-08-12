@@ -1,9 +1,15 @@
+.demo {
+  outline: 1px solid red;
+  outline-offset: -2px
+}
+
 body {
   font-size: 14px;
   color: #000;
   font-family: "PT Sans Narrow" Arial sans-serif;
   line-height: 24px;
   font-weight: bold;
+  background: #1d1d1d url("../img/main-bg.jpg") no-repeat;
 }
 
 h1 {
@@ -14,4 +20,22 @@ h1 {
 h2 {
   font-size: 24px;
   line-height: 30px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  outline: 1px solid red;
+  outline-offset: -2px
+}
+
+.main-header {
+  width: 100%;
+  min-height: 72px;
+  background-color: #000;
+}
+
+.main-navigation {
+  
 }
