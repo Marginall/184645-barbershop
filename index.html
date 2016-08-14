@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
-    <link href="css/style.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css">
   </head>
   <body>
@@ -12,11 +12,11 @@
       <div class="container clearfix">
         <nav class="main-navigation clearfix">
           <ul>
-            <li><a href="#" class="navi-item">ИНФОРМАЦИЯ</a></li>
-            <li><a href="#" class="navi-item">НОВОСТИ</a></li>
-            <li><a href="#" class="navi-item">ПРАЙС-ЛИСТ</a></li>
-            <li><a href="#" class="navi-item">МАГАЗИН</a></li>
-            <li><a href="#" class="navi-item">КОНТАКТЫ</a></li>
+            <li><a class="navi-item" href="#">ИНФОРМАЦИЯ</a></li>
+            <li><a class="navi-item" href="#">НОВОСТИ</a></li>
+            <li><a class="navi-item" href="price.html">ПРАЙС-ЛИСТ</a></li>
+            <li><a class="navi-item" href="barbershop-shop.html">МАГАЗИН</a></li>
+            <li><a class="navi-item" href="#">КОНТАКТЫ</a></li>
           </ul>
         </nav>
         <div class="user-block">
@@ -101,7 +101,7 @@
                   <input type="text" name="date" placeholder="ДАТА">
                   <input type="text" name="time" placeholder="ВРЕМЯ">
                 </div>
-                <class="subscribe-row">
+                <div class="subscribe-row">
                   <input type="text" name="name" placeholder="ВАШЕ ИМЯ">
                   <input type="tel" name="phone" placeholder="ТЕЛЕФОН">
                 </div>
@@ -140,13 +140,15 @@
       <form action="echo.htmlacademy.ru" method="post">
         <input type="text" name="login" placeholder="ЛОГИН">
         <input type="password" name="password" placeholder="ПАРОЛЬ">
-        <div class="checkbox-container">
-          <label>ЗАПОМНИТЕ МЕНЯ
-            <input class="popup-checkbox" type="checkbox" name="save">
-            <span class="checkbox-indicator"></span>
-          </label>
+        <div class="row">
+          <div class="checkbox-container">
+            <label>ЗАПОМНИТЕ МЕНЯ
+              <input class="popup-checkbox" type="checkbox" name="save">
+              <span class="checkbox-indicator"></span>
+            </label>
+          </div>
+          <a href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
         </div>
-        <a href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
 <!--        Оставлю пока button class="form-close", сомневаюсь на счет ссылки в плане лекций) когда расскажут про формы вернусь сюда -->
         <button type="submit">ВОЙТИ</button>
         <button class="form-close" type="button"></button>
