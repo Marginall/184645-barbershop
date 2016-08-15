@@ -1,3 +1,5 @@
+/* Общие стили */
+
 .demo {
   outline: 1px solid red;
   outline-offset: -2px;
@@ -47,6 +49,9 @@ h2 {
   font-size: 24px;
   line-height: 30px;
 }
+
+/* Построение сетки */
+/* Сетка главной */
 
 .main-header {
   width: 100%;
@@ -151,6 +156,8 @@ h2 {
   outline-offset: -2px
 }
 
+/* Сетка barbershop-shop */
+
 .breadcrumbs {
   margin-bottom: 55px;
 }
@@ -183,9 +190,14 @@ h2 {
   margin-bottom: 50px;
 }
 
-.item-page .left-column,
 .price-features,
 .our-price {
+  width: 460px;
+}
+
+/* Сетка item */
+
+.item-page .left-column {
   width: 460px;
 }
 
@@ -199,7 +211,26 @@ h2 {
 
 .item-img {
   float: left;
+  width: 140px;
+  margin-right: 20px;
 }
+
+.item-img:last-child {
+  margin-right: 0;
+}
+
+.information-box {
+  width: 100%;
+}
+
+.available {
+  float: left;
+}
+
+.article {
+  float: right;
+}
+/* Сетка price */
 
 .price-page .breadcrumbs {
   margin-bottom: 45px;
