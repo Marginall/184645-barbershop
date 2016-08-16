@@ -14,10 +14,10 @@ body {
   background: grey;
 }
 
-.clearfix {
-	content: "";
-	display: table;
-	clear: both;
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .container {
@@ -26,6 +26,22 @@ body {
   padding: 0 10px;
   outline: 1px solid red;
   outline-offset: -2px
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.row {
+  width: 100%;
+}
+
+.btn {
+  display: block;
 }
 
 .left-column {
@@ -97,6 +113,16 @@ h2 {
   margin-bottom: 80px;
 }
 
+.features-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.features-content {
+  margin: 0;
+  font-size: 14px;
+}
+
 .features-item {
   float: left;
   width: 300px;
@@ -113,6 +139,16 @@ h2 {
   padding: 55px 80px;
 }
 
+.content h2,
+.content p {
+  margin: 0;
+}
+
+.content ul {
+  margin: 0;
+  padding: 0;
+}
+
 .content .left-column {
   float: left;
   width: 380px;
@@ -127,6 +163,36 @@ h2 {
   outline: 1px solid green;
   outline-offset: -2px;
 }
+
+.content .content-title {
+  margin-bottom: 27px;
+}
+
+.content-news {
+  margin-bottom: 30px;
+}
+
+.content-news:last-child {
+  margin-bottom: 34px;
+}
+
+.gallery-img {
+  border: 7px solid #fff;
+}
+
+.gallery-btn:first-child {
+  float: left;
+}
+
+.gallery-btn:last-child {
+  float: right;
+}
+
+.content .contacts-text {
+  margin-bottom: 29px;
+}
+
+
 
 .main-footer {
   width: 100%;
