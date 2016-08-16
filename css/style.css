@@ -192,7 +192,13 @@ h2 {
   margin-bottom: 29px;
 }
 
+.subscribe .subscribe-text {
+  margin-bottom: 25px;
+}
 
+.subscribe-btn {
+  margin-top: 20px;
+}
 
 .main-footer {
   width: 100%;
