@@ -228,6 +228,13 @@ h2 {
   outline-offset: -2px
 }
 
+.popup-form {
+  display: none;
+}
+
+.popup-map {
+  display: none;
+}
 /* Сетка barbershop-shop */
 
 .breadcrumbs {
@@ -278,7 +285,7 @@ h2 {
 }
 
 .item-main-img {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
 }
 
 .item-img {
