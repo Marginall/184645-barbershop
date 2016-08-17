@@ -42,7 +42,12 @@ body {
 }
 
 .btn {
-  display: block;
+  display: inline-block;
+  width: 140px;
+  padding: 8px 0;
+  color: #fff;
+  border: none;
+  background-color: #000;
 }
 
 .left-column {
@@ -130,6 +135,7 @@ a {
 
 .features {
   margin-bottom: 80px;
+  text-align: center;
 }
 
 .features-title {
@@ -158,7 +164,6 @@ a {
   padding: 55px 80px;
 }
 
-.content h2,
 .content p {
   margin: 0;
 }
@@ -166,6 +171,11 @@ a {
 .content ul {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+}
+
+.content li {
+  text-decoration: none;
 }
 
 .content .left-column {
@@ -196,6 +206,7 @@ a {
 }
 
 .gallery-img {
+  margin-bottom: 45px;
   border: 7px solid #fff;
 }
 
@@ -215,7 +226,12 @@ a {
   margin-bottom: 25px;
 }
 
+.contacts-btn:first-child {
+  margin-right: 20px;
+}
+
 .subscribe-btn {
+  width: 300px;
   margin-top: 20px;
 }
 
