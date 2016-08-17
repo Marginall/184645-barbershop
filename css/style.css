@@ -11,6 +11,7 @@ body {
   font-family: "PT Sans Narrow" Arial sans-serif;
   line-height: 24px;
   font-weight: bold;
+  text-transform: uppercase;
   background: grey;
 }
 
@@ -66,6 +67,13 @@ h2 {
   line-height: 30px;
 }
 
+a {
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 /* Построение сетки */
 /* Сетка главной */
 
@@ -94,6 +102,16 @@ h2 {
 
 .main-navigation li {
   float: left;
+}
+
+.navi-item, .login {
+  display: block;
+  padding: 26px 22px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .user-block {
