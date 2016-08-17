@@ -331,6 +331,7 @@ a {
 .shop-item {
   float: left;
   width: 220px;
+  height: 286px;
   margin-right: 20px;
   outline: 1px solid red;
   outline-offset: -2px
@@ -338,6 +339,32 @@ a {
 
 .shop-item:last-child {
   margin-right: 0;
+}
+
+.catalog-img {
+  margin-bottom: 15px;
+}
+
+.shop-item-title {
+  display: block;
+}
+
+.item-box-btn {
+  font-size: 0;
+}
+
+.item-price {
+  display: inline-block;
+  padding: 8px 27px;
+  font-size: 14px;
+  background-color: #e5e5e5;
+}
+
+.item-buy {
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 14px;
+  background-color: #000;
 }
 
 .shop-page .row {
